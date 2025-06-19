@@ -188,11 +188,11 @@ const Register = () => {
               </div>
             </div>
             <CardTitle className="text-2xl font-bold text-center bg-gradient-to-r from-yellow-500 via-green-600 to-emerald-500 bg-clip-text text-transparent">
-  Create Your Expensia Account
+  Create Your Financia Account
 </CardTitle>
 
             <CardDescription className="text-center text-gray-500">
-              Join Expensia to start managing your finances
+              Join Financia to start managing your finances
             </CardDescription>
           </CardHeader>
           <CardContent>

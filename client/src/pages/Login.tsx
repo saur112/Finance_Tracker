@@ -248,7 +248,7 @@ const Login = () => {
         <Card className="shadow-lg border border-gray-200 bg-white rounded-xl">
           <CardHeader className="space-y-1 pb-2">
           <CardTitle className="text-2xl font-bold text-center bg-gradient-to-r from-yellow-500 via-green-600 to-emerald-600 bg-clip-text text-transparent">
-  Welcome To Expensia
+  Welcome To Financia
 </CardTitle>
 
 
