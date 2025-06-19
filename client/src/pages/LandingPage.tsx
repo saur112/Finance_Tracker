@@ -176,7 +176,7 @@ const LandingPage = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="text-center md:text-left">
-              <h3 className="text-3xl font-bold text-gradient mb-2">Expensia</h3>
+              <h3 className="text-3xl font-bold text-gradient mb-2">Financia</h3>
               <p className="text-gray-400 text-lg">Your partner in smarter money decisions.</p>
               <div className="flex items-center justify-center md:justify-start gap-4 mt-4">
                 <span className="px-3 py-1 bg-green-600 text-white text-xs rounded-full">🔒 Secure</span>
@@ -202,7 +202,7 @@ const LandingPage = () => {
           </div>
           
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Expensia. All rights reserved. Made with ❤ for your financial success.</p>
+            <p>&copy; {new Date().getFullYear()} Financia. All rights reserved. Made with ❤ for your financial success.</p>
           </div>
         </div>
       </footer>
