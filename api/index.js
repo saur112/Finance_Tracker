@@ -5,12 +5,7 @@ const app = Express();
 
 app.use(cors());
 
-app.get('/',(req,res)=>{
-    res.send({
-        activeStatus:true,
-        error:false,
-    })
-})
+
 
 app.get("/api/hello/", (req, res) => {
     res.json({
