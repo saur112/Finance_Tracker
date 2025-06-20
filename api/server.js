@@ -12,7 +12,7 @@ const app = express();
 // CORS configuration
 
 
-app.use(cors({origin: true, credentials:true}))
+app.use(cors({origin:['https://finance-tracker-sand-one.vercel.app/']}))
 
 app.use(express.json());
 
