@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
     })
 })
 
-app.use(cors({origin:['https://venerable-ganache-81cdf2.netlify.app/']}))
+app.use(cors({origin:['http://localhost:8080/','https://venerable-ganache-81cdf2.netlify.app/'], credentials:true}))
 
 app.use(express.json());
 
