@@ -10,7 +10,12 @@ require('dotenv').config();
 const app = express();
 
 // CORS configuration
-
+app.get('/',(req,res)=>{
+    res.send({
+        activeStatus:true,
+        error:false,
+    })
+})
 
 app.use(cors({origin:['https://finance-tracker-sand-one.vercel.app/']}))
 
