@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
     })
 })
 
-app.use(cors({origin:['https://finance-tracker-sand-one.vercel.app/']}))
+app.use(cors({origin:['https://venerable-ganache-81cdf2.netlify.app/']}))
 
 app.use(express.json());
 
